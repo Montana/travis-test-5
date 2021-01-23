@@ -9,3 +9,5 @@ jobs:
     - name: one
     - name: two
       if: env(SETTING) is present
+
+script: true
